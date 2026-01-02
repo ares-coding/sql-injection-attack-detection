@@ -1,0 +1,5 @@
+query,label
+SELECT * FROM users WHERE id=1,0
+SELECT username FROM accounts WHERE active=1,0
+INSERT INTO logs (event) VALUES ('login success'),0
+UPDATE users SET name='Juan' WHERE id=5,0
