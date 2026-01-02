@@ -1,0 +1,6 @@
+query,label
+' OR '1'='1' --,1
+admin' --,1
+' UNION SELECT username, password FROM users --,1
+' OR 1=1#,1
+'; DROP TABLE users --,1
