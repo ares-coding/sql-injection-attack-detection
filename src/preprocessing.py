@@ -25,8 +25,16 @@ def load_and_prepare_data():
     Load normal and SQL injection datasets, clean queries,
     and return a combined DataFrame.
     """
-    normal_df = pd.read_csv("dataset/normal_queries.csv")
-    injection_df = pd.read_csv("dataset/sql_injection_queries.csv")
+    normal_df = pd.read_csv(
+    "dataset/normal_queries.csv",
+    engine="python"
+)
+
+injection_df = pd.read_csv(
+    "dataset/sql_injection_queries.csv",
+    engine="python"
+)
+
 
     df = pd.concat([normal_df, injection_df], ignore_index=True)
 
