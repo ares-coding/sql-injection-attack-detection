@@ -10,6 +10,7 @@
 > **Disclaimer:** This project is for educational and research purposes only. Use only on systems you own or have explicit written authorization to test. Unauthorized access to computer systems is illegal.
 
 ---
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/3230676a-bd06-4494-b81a-ac1a98e34507" />
 
 ## Overview
 
